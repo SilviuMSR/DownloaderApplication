@@ -22,7 +22,7 @@ namespace DownloaderApplication.ReaderP
 
                     try
                     {   
-                       web.ContentDownloader(LineWords[0], DirectoryName, FileName, NumberOfBytes);
+                       web.Downloader(LineWords[0], DirectoryName, FileName, NumberOfBytes);
                     }
                     catch (InvalidDataException e)
                     {
